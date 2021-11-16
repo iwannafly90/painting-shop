@@ -16,7 +16,7 @@ const modals = () => {
                 }
 
                 windows.forEach(item => {
-                    item.style.display = 'none';
+                    item.style.display = 'none ';
                 });
 
                 modal.style.display = "block";
@@ -37,7 +37,8 @@ const modals = () => {
                 windows.forEach(item => {
                     item.style.display = 'none';
                 });
-                modal.style.display = "none 123";
+
+                modal.style.display = "none";
                 document.body.style.overflow = "";
             }
         })
