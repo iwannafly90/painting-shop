@@ -16,7 +16,7 @@ const modals = () => {
                 }
 
                 windows.forEach(item => {
-                    item.style.display = 'none ';
+                    item.style.display = 'none';
                 });
 
                 modal.style.display = "block";
